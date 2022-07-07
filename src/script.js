@@ -1,0 +1,1 @@
+/* feito a base do navegador */
