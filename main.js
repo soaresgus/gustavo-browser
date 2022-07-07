@@ -1,7 +1,5 @@
 const { app, BrowserWindow, globalShortcut } = require('electron')
 
-require('electron-reloader')(module);
-
 let win;
 
 function createWindow() {
@@ -16,7 +14,7 @@ function createWindow() {
         }
     })
 
-    win.loadURL('http://127.0.0.1:5500/src/index.html');
+    win.loadFile('index.html');
     win.webContents.openDevTools();
 }
 
