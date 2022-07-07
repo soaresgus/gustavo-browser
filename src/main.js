@@ -9,6 +9,8 @@ function createWindow() {
         width: 800,
         height: 600,
         alwaysOnTop: true,
+        autoHideMenuBar: true,
+        icon: __dirname + '/assets/logo.png',
         webPreference: {
             nodeIntegration: true
         }
