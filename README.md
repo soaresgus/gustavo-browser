@@ -31,8 +31,6 @@ Para usar o Gustavo Browser, siga estas etapas:
 npm start
 ```
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
 ## 📫 Contribuindo
 
 1. Bifurque este repositório.
