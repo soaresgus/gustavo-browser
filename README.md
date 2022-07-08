@@ -31,6 +31,39 @@ Para usar o Gustavo Browser, siga estas etapas:
 npm start
 ```
 
+## 🖼️ Galeria
+
+<p align="center">
+  <img src="./assets/readme/print-1.png" width=490 height=308 alt="Imagem de desktop usando aplicação">
+  <img src="./assets/readme/print-2.png" width=490 height=308 alt="Imagem de desktop usando aplicação">
+</p>
+
+## ⚙️ Atalhos 
+<table>
+  <thead>
+    <tr>
+      <th>MacOS</th>
+      <th>Linux / Windows</th>
+      <th>Função</th>
+      <th>Tela em foco</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><kbd>Cmd</kbd> + <kbd>J</kbd></td>
+      <td><kbd>Ctrl</kbd> + <kbd>J</kbd></td>
+      <td>Abri DevTools</td>
+      <td>Não</td>
+    </tr>
+    <tr>
+      <td><kbd>Cmd</kbd> + <kbd>H</kbd></td>
+      <td><kbd>Ctrl</kbd> + <kbd>H</kbd></td>
+      <td>Voltar ao início</td>
+      <td>Não</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 📫 Contribuindo
 
 1. Bifurque este repositório.
@@ -61,4 +94,4 @@ Pessoas responsáveis em tornar esse projeto possível:
 <p>Feito com ❤️ por Gustavo Soares.</p>
 <p>Agradeço à atenção.</p>
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#gustavo-browser)<br>
