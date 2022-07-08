@@ -4,6 +4,13 @@
 
 <h1 align="center">Gustavo Browser</h1>
 
+## 👨‍🚀 Recursos
+
+* ☁️  Picture-in-Picture
+* ✏️  Direto ao ponto
+* ⚙️  Atalhos
+* 🔵  Derivado do Chromium
+
 > O projeto consiste em um navegador flutuante utilizando ElectronJS, derivado do Chromium. Seus diferenciais para um navegador convencional é a simplicidade e o fato de ser fixo na tela, ou seja, mesmo com um cliques na tela ele continua visível
 
 ## 💻 Pré-requisitos
