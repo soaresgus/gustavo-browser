@@ -1,6 +1,8 @@
-const { app, BrowserWindow, globalShortcut } = require('electron')
+const { app, BrowserWindow, globalShortcut, Menu, MenuItem } = require('electron')
 
 let win;
+
+require('electron-reloader')(module)
 
 function createWindow() {
     win = new BrowserWindow({
@@ -14,7 +16,7 @@ function createWindow() {
         }
     })
 
-    win.loadFile('index.html');
+    win.loadFile(`${__dirname}/src/index.html`);
     win.webContents.openDevTools();
 }
 
@@ -23,17 +25,30 @@ function toggleDevTools() {
 }
 
 function returnHome() {
-    win.loadFile('index.html');
+    win.loadFile(`${__dirname}/src/index.html`);
 }
 
-function createShortcuts() {
-    globalShortcut.register('CmdOrCtrl + J', toggleDevTools)
-    globalShortcut.register('CmdOrCtrl + H', returnHome)
-}
+const menu = new Menu()
+menu.append(new MenuItem({
+    label: 'Gustavo Browser',
+    submenu: [
+        {
+            role: 'Home',
+            accelerator: process.platform === 'darwin' ? 'Cmd+H' : 'Ctrl+H',
+            click: () => { returnHome() }
+        },
+        {
+            role: 'Toggle Dev Tools',
+            accelerator: process.platform === 'darwin' ? 'Cmd+J' : 'Ctrl+J',
+            click: () => { toggleDevTools() }
+        },
+    ]
+}))
+
+Menu.setApplicationMenu(menu)
 
 app.whenReady()
     .then(createWindow)
-    .then(createShortcuts)
 
 app.on('window-all-closed', () => {
     if (process.platform != 'darwin') {
