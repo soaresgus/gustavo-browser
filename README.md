@@ -13,6 +13,10 @@
 
 > O projeto consiste em um navegador flutuante utilizando ElectronJS, derivado do Chromium. Seus diferenciais para um navegador convencional é a simplicidade e o fato de ser fixo na tela, ou seja, mesmo com um cliques na tela ele continua visível
 
+## ⭐ Tecnologias
+* Javascript
+* ElectronJS
+
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
@@ -60,13 +64,25 @@ npm start
       <td><kbd>Cmd</kbd> + <kbd>J</kbd></td>
       <td><kbd>Ctrl</kbd> + <kbd>J</kbd></td>
       <td>Abri DevTools</td>
-      <td>Não</td>
+      <td>Sim</td>
     </tr>
     <tr>
       <td><kbd>Cmd</kbd> + <kbd>H</kbd></td>
       <td><kbd>Ctrl</kbd> + <kbd>H</kbd></td>
       <td>Voltar ao início</td>
-      <td>Não</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td><kbd>Cmd</kbd> + <kbd>F</kbd></td>
+      <td><kbd>Ctrl</kbd> + <kbd>F</kbd></td>
+      <td>Ativar picture-in-picture</td>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <td><kbd>Cmd</kbd> + <kbd>&uarr; &larr; &darr; &rarr;</kbd></td>
+      <td><kbd>Ctrl</kbd> + <kbd>&uarr; &larr; &darr; &rarr;</kbd></td>
+      <td>Mover a janela</td>
+      <td>Sim</td>
     </tr>
   </tbody>
 </table>
