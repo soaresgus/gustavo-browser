@@ -4,6 +4,18 @@
 
 <h1 align="center">Gustavo Browser</h1>
 
+<p align="center">
+<a href="#-recursos">Recursos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#-pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#-instalando">Instalando</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#-utilização">Utilização</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#%EF%B8%8F-galeria">Galeria</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#%EF%B8%8F-atalhos">Atalhos</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#-contribuindo">Contribuindo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="#-colaboradores">Colaboradores</a>
+</p>
+
 ## 👨‍🚀 Recursos
 
 * ☁️  Picture-in-Picture
